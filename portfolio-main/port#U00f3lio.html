@@ -4,88 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcos Dias da Silva | Portfólio</title>
+    <title>Marcos Dias </title>
+
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <h1>Marcos Dias</h1>
+
         <nav>
-            <a href="#sobre">Sobre</a> |
-            <a href="#habilidades">Habilidades</a> |
-            <a href="#projetos">Projetos</a> |
-            <a href="#objetivo">Objetivo</a> |
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
             <a href="#contato">Contato</a>
         </nav>
     </header>
 
-    <section id="home">
+    <section id="home" class="container">
+
         <div class="home-text">
-            <h2>Olá, eu sou Marcos Dias da Silva</h2>
-            <p>Desenvolvedor Web em formação, focado em aprender na prática e evoluir todos os dias.</p>
+            <span class="tag">Front-End Developer</span>
+
+            <h2>
+                Criando interfaces modernas e experiências digitais elegantes.
+            </h2>
+
+            <p>
+                Desenvolvedor Web em formação focado em design moderno,
+                responsividade e experiência do usuário.
+            </p>
+
+            <div class="buttons">
+                <a href="#projetos" class="btn">Ver Projetos</a>
+                <a href="#contato" class="btn-outline">Contato</a>
+            </div>
         </div>
 
-        <img src="./marcos.jpg" alt="Foto Marcos">
+        <div class="home-image">
+            <img src="./marcos.jpg" alt="Foto Marcos Dias">
+        </div>
+
     </section>
 
-    <hr>
-
-    <section id="sobre">
+    <section id="sobre" class="card container">
         <h3>Sobre Mim</h3>
-        <p>Tenho 15 anos e estou começando minha jornada na programação através do Instituto percorre.</p>
+
+        <p>
+            Tenho 15 anos e estou começando minha jornada na programação através do Instituto Percorre.
+            Atualmente estudo HTML, CSS, Java Script e lógica de programação, buscando evoluir constantemente
+            minhas habilidades em desenvolvimento web.
+        </p>
+
+        
+        
     </section>
 
-    <hr>
+    <section id="habilidades" class="container">
 
-    <section id="habilidades">
         <h3>Habilidades</h3>
-        <h4>Técnicas</h4>
-        <ul>
-            <li>HTML</li>
-            <li>Lógica de programação</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
 
-        <h4>Pessoais</h4>
-        <ul>
-            <li>Disciplina</li>
-            <li>Responsabilidade</li>
-            <li>Aprendizado rápido</li>
-            <li>Proatividade</li>
-        </ul>
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h4>HTML5</h4>
+                <p>Estruturação moderna de páginas web.</p>
+            </div>
+
+            <div class="skill-card">
+                <h4>CSS3</h4>
+                <p>Layouts responsivos e interfaces modernas.</p>
+            </div>
+
+            <div class="skill-card">
+                <h4>Lógica</h4>
+                <p>Resolução de problemas e algoritmos.</p>
+            </div>
+
+            <div class="skill-card">
+                <h4>UI Design</h4>
+                <p>Estudos de interfaces modernas e experiência visual.</p>
+            </div>
+
+        </div>
+
     </section>
 
-    <hr>
+    <section id="projetos" class="container">
 
-    <section id="projetos">
         <h3>Projetos</h3>
-        <p>Ainda estou no início e não possuo projetos prontos, mas estou em constante aprendizado e prática.</p>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h4>Loja de Semijoias</h4>
+                <p>
+                    Design moderno de e-commerce focado em experiência premium.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h4>Portfólio Pessoal</h4>
+                <p>
+                    Projeto desenvolvido para apresentar minhas habilidades.
+                </p>
+            </div>
+
+        </div>
+
     </section>
 
-    <hr>
+    <section id="contato" class="card container">
 
-    <section id="objetivo">
-        <h3>Objetivo e Propósito</h3>
-        <p>Criei este portfólio para dar meus primeiros passos no mercado de trabalho como desenvolvedor web. Ainda
-            estou no início, mas tenho muita vontade de aprender e crescer.</p>
-        <p>Meu objetivo é conquistar minha primeira oportunidade e ganhar experiência na prática.</p>
-    </section>
-
-    <hr>
-
-    <section id="contato">
         <h3>Contato</h3>
-        <p>Telefone: <a href="https://w.app/39hlmq">51 99126-3993</a></p>
-        <p>Email: <a href="mailto:@marcosdias.20100@gmail.com">marcosdias.20100@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/Marcos538-b" target="_blank">github.com/Marcos538-b</a></p>
+
+        <div class="contact-links">
+            <a href="mailto:marcosdias.20100@gmail.com">
+                marcosdias.20100@gmail.com
+            </a>
+
+            <a href="https://github.com/Marcos538-b" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://w.app/39hlmq" target="_blank">
+                WhatsApp
+            </a>
+        </div>
+
     </section>
 
     <footer>
-        <p>© 2026 Marcos Dias da Silva</p>
+        <p>© 2026 Marcos Dias </p>
     </footer>
 
 </body>
